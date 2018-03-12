@@ -1,0 +1,126 @@
+html{   
+font-size: 10px;
+}
+
+body{max-width:640px;min-width: 320px;margin:0 auto; font-family:"微软雅黑"}
+
+/*内容*/
+
+#wrapper {
+	width: 100%;
+	margin: 0px auto;
+}
+#wrapper .position{width: 100%;height: 0.7rem;font-size: 0.24rem; line-height: 0.7rem; color: #b4b4b4; background: #fff; border-top:1px solid #9c9c9c }
+#wrapper .position .left{ height: 0.7rem;   }
+#wrapper .position .left em{background:url(../imagesmin/three.png)no-repeat 0 center; margin-left:0.3rem ; display: inline-block; width: 0.12rem;  height: 0.2rem}
+#wrapper .position a{font-size: 0.24rem;color: #02448f;padding-left: 0.3rem; font-weight: 500}
+.toggle{width: 100%;position: relative; height: 1.6rem;margin: 0px auto; }
+.hidejs{ background: #ebebeb; height: 1.62rem; font-size: 0.24rem;width: 100%;position: absolute;top: 0;left: 0; margin: 0 auto }
+.hidejs h3{height: 0.36rem; font-weight: 500 ;line-height:0.36rem;color: #fff; background:#02448f;text-align: left; position: relative; padding-left: 0.3rem}
+.hidejs h3 span{display:inline-block; height: 0.36rem; width: 0.48rem; background: url(../imagesmin/show.png) no-repeat center center; background-size:cover;position: absolute; top: 0;right: 0.3rem}
+.hidejs .span{  padding:0 0.3rem; width:6.9rem; padding-top: 0.2rem; }
+.hidejs .span a{ 
+	display: inline-block;
+	overflow:hidden; 
+		white-space:nowrap;
+		word-break:keep-all;
+		 font-size: 0.18rem;
+		  width: 1.1rem;
+		  padding-right: 0.06rem;
+		   margin-bottom: 0.2rem; 
+		    height: 0.31rem;
+		    line-height: 0.31rem;
+		    text-align: center;
+		     background: #fff}
+.hidejs .span  a{color:#6e6e6e; font-weight: 600 }
+.hidejs .span  a:hover{ color: #02448f;}
+
+.showjs{ width: 100%; background: #ebebeb; height: 1.62rem; font-size: 0.24rem; padding-bottom: 0.24rem; position: relative;z-index: 2}
+.showjs h3{height: 0.36rem;line-height:0.36rem;color: #fff; background:#02448f;text-align: center; position: relative;}
+.showjs h3 span{display: inline-block; height:0.36rem; width:0.41rem; background: url(../imagesmin/hide.png) no-repeat center center; position: absolute; top: 0;right: 0.46875rem}
+.showjs b,.showjs em{display: block;height: 0.36rem;line-height: 0.36rem;text-align: center;}
+.showjs b{color: #02448f}
+.showjs em{ background: #fff;color: #dddddd; font-weight:500;border-bottom: 1px solid #ebebeb; cursor: pointer;}
+.showjs em:hover{color:#02448f; background: #dddddd;}
+#hide_js,#hide_js_x,#show_js{cursor: pointer;}
+.brand-list {
+	width: 100%;
+     height: 11.4rem;
+	overflow: hidden;
+	margin: 0px auto;
+	margin-top: 0.44rem;
+	
+}
+.brand-list ul li {border: 1px solid #e9e9e9; margin-bottom: 0.1rem; }
+.brand-list .brand-left ul li{border: 1px solid #e9e9e9; margin-bottom: 0.1rem; }
+.ceshi{height: 1rem}
+/*.brand-list .brand-left ul li{margin-top: 10px;}*/
+.brand-list .brand-left {
+	position: relative;
+	width:3.22rem;
+	padding-left:0.3rem;
+	float: left;
+}
+.brand-list .brand-right {
+	position: relative;
+	margin-left: 0.1rem;
+	width: 2.4rem;
+	float: left;
+}
+.brand-list .brand-left ul li{height: 2.72rem;}
+.brand-list .brand-right ul li{height: 2.15rem;}
+.brand-list .brand-left ul li img{width: 3.02rem}
+
+.brand-list .brand-right ul li img{width: 2.15rem }
+.brand-list ul li img{padding: 0.1rem;}
+.text{ padding: 0 0.1rem;text-align: left;line-height: 0.26rem; font-weight: 600; font-size: 0.14rem}
+.text b{display: block; font-weight: normal; color: #b5b4b4;}
+.text span{overflow:hidden; white-space:nowrap; width: 100%; display: inline-block }
+.text b{overflow:hidden; white-space:nowrap; width: 100%; display: inline-block}
+@media screen and (max-width:640px){
+	.hidejs .span a{
+		width: 1.2rem;
+		overflow:hidden; 
+		white-space:nowrap;
+		word-break:keep-all;
+		padding-right: 0.08rem;
+	}
+	.brand-list .brand-left {
+	position: relative;
+	width:3.77rem;
+	padding-left:0.3rem;
+	float: left;
+    }
+    .brand-list .brand-right {
+	position: relative;
+	margin-left: 0.1rem;
+	width: 2.81rem;
+	float: left;
+}
+.brand-list .brand-left ul li{height: 3.18rem;}
+.brand-list .brand-right ul li{height: 2.51rem;}
+.brand-list .brand-left ul li img{width: 3.54rem}
+.brand-list .brand-right ul li img{width: 2.51rem }
+}
+	
+    
+/*.brand-list .item {
+	position: absolute;
+	width: 300px;
+	background-color: #f8f8f8;
+	border: 1px solid #f8f8f8;
+	padding: 0px;
+	margin-top: 35px;
+	top: 0;
+	left: 30%;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+}*/
+
+
+
+
+
